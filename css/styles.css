@@ -60,6 +60,9 @@ body {
     color: var(--main-text);
 }
 
+.nav-link-active {
+    color: var(--accent);
+}
 .top-menu-contacts-link{
     color: var(--secondary-text);
 }
@@ -77,10 +80,6 @@ body {
     outline: none;
     border: none;
     color: var(--accent)
-}
-
-.nav-link:current (a) {
-    color: var(--accent);
 }
 
 .hero-button,
@@ -271,7 +270,7 @@ font-weight: 500;
     color: var(--light-text);
 }
 
-.footer-list{
+.footer-contacts-item, .footer-contacts-link {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
