@@ -20,8 +20,7 @@ body {
     line-height: 1.15;
     color: var(--main-text);
     background-color: var(--main-bg);
-    width: auto;
-    height: auto;
+    height: 100%;
 }
 
 .btn {
@@ -120,7 +119,7 @@ body {
 }
 
 .hero-container {
-    width: auto;
+    width: 100%;    
     height: 600px;
     margin-left: 0px;
     margin-top: 0px;
@@ -138,8 +137,10 @@ body {
 }
 
 .hero-title {
-
-    padding: 200px 452px 30px 452px;
+    max-width: 696px;
+    height: 120px;
+    margin: auto;
+    padding-top: 200px;
 }
 
 /* hero button */
